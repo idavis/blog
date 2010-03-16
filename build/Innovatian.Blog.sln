@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovatian.Blog", "..\source\Innovatian.Blog\Innovatian.Blog.csproj", "{51E8684E-7208-4722-80C0-2A019EA600EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Innovatian.Blog.Tests", "Innovatian.Blog.Tests\Innovatian.Blog.Tests.csproj", "{11ADEFE8-E87B-48EE-821A-FF75582D5433}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51E8684E-7208-4722-80C0-2A019EA600EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E8684E-7208-4722-80C0-2A019EA600EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E8684E-7208-4722-80C0-2A019EA600EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E8684E-7208-4722-80C0-2A019EA600EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11ADEFE8-E87B-48EE-821A-FF75582D5433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11ADEFE8-E87B-48EE-821A-FF75582D5433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11ADEFE8-E87B-48EE-821A-FF75582D5433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11ADEFE8-E87B-48EE-821A-FF75582D5433}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
