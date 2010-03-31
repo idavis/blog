@@ -15,12 +15,13 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Threading.Tasks;
 
 #endregion
 
 namespace MatrixMultiplication
 {
-    public class Parallel
+    public class OptimizedParallel
     {
         private static int ChunkFactor { get; set; }
 
@@ -42,7 +43,7 @@ namespace MatrixMultiplication
             var stopwatch = new Stopwatch();
             stopwatch.Start();
             IEnumerable<Tuple<int, double[][]>> data = PartitionData( N, A );
-            System.Threading.Tasks.Parallel.ForEach( data, item => Multiply( item, B, C ) );
+            Parallel.ForEach( data, item => Multiply( item, B, C ) );
             stopwatch.Stop();
             return stopwatch.Elapsed;
         }

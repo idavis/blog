@@ -22,7 +22,7 @@ namespace MatrixMultiplication
     internal class Program
     {
         private const int Min = 100;
-        private const int Max = 1000;
+        private const int Max = 2000;
         private const int Step = 100;
         private const int Tries = 3;
 
@@ -35,12 +35,13 @@ namespace MatrixMultiplication
                 Run("FixedSingle", FixedSingle.Multiply);
                 Run("Jagged", Jagged.Multiply);
                 Run("JaggedFromCpp", JaggedFromCpp.Multiply);
-                Run("Parallel", Parallel.Multiply);
+                Run("OptimizedParallel", OptimizedParallel.Multiply);
+                Run("SimpleParallel", SimpleParallel.Multiply);
                 Run("Single", Single.Multiply);
                 Run("Standard", Standard.Multiply);
                 Run("UnsafeSingle", UnsafeSingle.Multiply);
                  */
-                RunParallelAdjustingChunkFactor( "ParallelTuning", Parallel.Multiply, 1 );
+                //RunParallelAdjustingChunkFactor( "ParallelTuning", OptimizedParallel.Multiply, 1 );
             }
             finally
             {

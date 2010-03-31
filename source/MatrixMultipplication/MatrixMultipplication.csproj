@@ -67,9 +67,10 @@
     <Compile Include="FixedSingle.cs" />
     <Compile Include="Jagged.cs" />
     <Compile Include="JaggedFromCpp.cs" />
-    <Compile Include="Parallel.cs" />
+    <Compile Include="OptimizedParallel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleParallel.cs" />
     <Compile Include="Single.cs" />
     <Compile Include="Standard.cs" />
     <Compile Include="UnsafeSingle.cs" />
